@@ -10,12 +10,13 @@
 </head>
 
 <body>
+
   <header>
-    <div class="logo">
-      <img id="logo" src="IMAGENES/LOGO RECOMPE.png" alt="RECOMPE">
+    <div>
+      <img class="logo" src="IMAGENES/LOGO RECOMPE.png" alt="RECOMPE">
     </div>
 
-    <div class="INICIO TOP OPINIONES CONTACTO">
+    <div class="menu">
       <a href="INICIO">Inicio</a>
       <a href="TOP">Top</a>
       <a href="OPINIONES">Opiniones</a>
@@ -23,149 +24,128 @@
     </div>
 
 
-    <div class="busqueda">
-      <form action="buscar">
-        <input type="buscar" placeholder="Buscar película">
+    <div class="search">
+      <form action="search">
+        <input type="text" placeholder="Buscar película">
       </form>
     </div>
   </header>
 
-  <main>
-    <div class="container">
-      <div class="colum30">
-        <div class="redes-sociales">
-          <h2>Redes sociales</h2><br>
+  <main class="grid">
+    <article>
+      <h2>Redes Sociales</h2><br>
+      <div class="social-network">
+        <a href="https://www.instagram.com/">
+          <img alt="instagram" src="./IMAGENES/instagram_142380.png" />
+        </a>
+        <a href="https://es-es.facebook.com/">
+          <img alt="facebook" src="./IMAGENES/facebook_142362.png" />
+        </a>
+        <a href="https://twitter.com/?lang=es">
+          <img alt="twitter" src="./IMAGENES/twitter_142363.png" />
+        </a>
+      </div>
+    </article>
 
-          <img class="redes" src="IMAGENES/instagram_142380.png" alt="instagram"></a>
+    <section>
+      <h2>Peliculas recomendadas</h2>
 
-          <img class="redes" src="IMAGENES/facebook_142362.png" alt="facebook"></a>
-
-          <img class="redes" src="IMAGENES/twitter_142363.png" alt="twitter"></a>
-
-
+      <div class="recommended-movies">
+        <div class="moovie">
+          <div class="moovie-img">
+            <img src="./IMAGENES/corredor del laberinto.jpg" alt="EL CORREDOR DEL LABERINTO">
+          </div>
+          <div class="moovie-content">
+            <h4>El corredor del laberinto</h4><br>
+            <p>Thomas es un adolescente cuya memoria fue borrada y que ha sido encerrado junto a otros
+              chicos de su edad en un laberinto plagado de monstruos y misterios.</p>
+          </div>
         </div>
 
-        <div class="Opiniones">
-          <br><br><br>
-          <h2>Vuestras Opiniones</h2><br><br>
-
-
-
-
-          <div class="comentario">
-            <img id="imagen-opinion" src="IMAGENES/corredor del laberinto.jpg" alt="el corredor del laberinto">
-            <h4>EL CORREDOR DEL LABERINTO</h4><br>
-            <div class="autor">Manuel Perez</div>
-            <div class="contenido">El Corredor del Laberinto te mantiene al borde del asiento de principio a fin."</div>
+        <div class="moovie">
+          <div class="moovie-img">
+            <img src="./IMAGENES/juegos delhambre.jpg" alt="LOS  JUEGOS DEL HAMBRE">
           </div>
-
-          <div class="comentario">
-            <img id="imagen-opinion" src="IMAGENES/juegos delhambre.jpg" alt="juegos del hambre">
-            <h4>LOS JUEGOS DEL HAMBRE</h4><br>
-            <div class="autor">Hector Gomez</div>
-            <div class="contenido">Una experiencia intensa y llena de adrenalina.</div>
+          <div class="moovie-content">
+            <h4>Los juegos del hambre</h4><br>
+            <p>Thomas es un adolescente cuya memoria fue borrada y que ha sido encerrado junto a otros
+              chicos de su edad en un laberinto plagado de monstruos y misterios.</p>
           </div>
+        </div>
 
-          <div class="comentario">
-            <img id="imagen-opinion" src="IMAGENES/Caratula_de_Avatar.webp" alt="AVATAR">
+        <div class="moovie">
+          <div class="moovie-img">
+            <img src="./IMAGENES/Caratula_de_Avatar.webp" alt="AVATAR">
+          </div>
+          <div class="moovie-content">
             <h4>AVATAR</h4><br>
-            <div class="autor">Sara de Lucas</div>
-            <div class="contenido">El Corredor del Laberinto combina una trama intrigante con efectos visuales
-              asombrosos, creando un viaje cinematográfico inolvidable.</div>
-          </div>
-
-
-        </div>
-
-
-
-
-      </div>
-
-
-      <div class="colum60">
-        <div class="recomendadas">
-          <h1>Peliculas recomendadas</h1>
-        </div>
-        <div class="Peliculas">
-          <span></span>
-          <div class="pelicula">
-            <div class="pelicula1">
-              <div class="imagen1">
-                <img src="IMAGENES/corredor del laberinto.jpg" alt="Corredor del laberinto">
-              </div>
-              <br><br>
-              <h3>El corredor del laberinto</h3><br>
-              <p>Thomas es un adolescente cuya memoria fue borrada y que ha sido encerrado junto a otros chicos de su
-                edad en un laberinto plagado de monstruos y misterios.</p>
-            </div>
-
-            <div class="pelicula2">
-              <div class="imagen2">
-                <img src="IMAGENES/juegos delhambre.jpg" alt="Imagen de la película 2">
-              </div>
-              <br><br>
-              <h3>Los juegos del hambre</h3><br>
-              <p>Para demostrar su poder, el régimen del estado totalitario de Panem organiza cada año "Los juegos del
-                hambre". </p>
-            </div>
-
-            <div class="pelicula3">
-              <div class="imagen3">
-                <img src="IMAGENES/Caratula_de_Avatar.webp" alt="Imagen de la película 3">
-              </div>
-              <br><br>
-              <h3>AVATAR</h3><br>
-              <p>Entramos en el mundo Avatar de la mano de Jake Sully, un ex-Marine en silla de ruedas, que ha sido
-                reclutado para viajar a Pandora.</p>
-            </div>
-
-          </div>
-
-          <div class="marketing">
-
-            <img id="slogan" src="IMAGENES/Black White Simple Modern Cinema Logo.jpg" alt="slogan">
-
-            <img id="marketing1" src="IMAGENES/corredor del laberinto.jpg" alt="corredor">
-
-
-            <img id="marketing2" src="IMAGENES/juegos delhambre.jpg" alt="juegos">
-
-
-            <img id="marketing3" src="IMAGENES/Caratula_de_Avatar.webp" alt="avatar">
-
-
-
-
+            <p>Entramos en el mundo Avatar de la mano de Jake Sully, un ex-Marine en silla de ruedas, que ha
+              sido reclutado para viajar a Pandora.</p>
           </div>
         </div>
       </div>
 
-    </div>
-    </div>
-    <footer>
-      &copy; 2024 RECOMPE
-      <a href="politica-privacidad.html">Política de Privacidad</a>
-      <h4>985432755</h4>
-      <h4>contacto@recompe.com</h4>
+      <div class="marketing">
+        <img src="./IMAGENES/Black White Simple Modern Cinema Logo.jpg" alt="slogan">
+        <img src="./IMAGENES/corredor del laberinto.jpg" alt="EL CORREDOR DEL LABERINTO">
+        <img src="./IMAGENES/juegos delhambre.jpg" alt="LOS JUEGOS DELHAMBRE">
+        <img src="./IMAGENES/Caratula_de_Avatar.webp" alt="AVATAR">
+      </div>
+    </section>
 
+    <aside>
+      <h2>Vuestras opiniones</h2><br><br>
+      <div class="feedback">
 
-      <img class="red" src="IMAGENES/blancoinstagram_142380.png" alt="instagram"></a>
+        <div class="feedback-item grid">
+          <div class="feedback-img">
+            <img src="./IMAGENES/corredor del laberinto.jpg" alt="EL CORREDOR DEL LABERINTO">
+          </div>
+          <div class="feedback-content">
+            <h3>EL CORREDOR DEL LABERINTO</h3><br>
+            <h4>Manuel Perez</h4><br>
+            <p>"El corredor del laberinto te mantiene al borde del asiento de principio a fin"</p>
+          </div>
+        </div>
 
-      <img class="red" src="IMAGENES/blanco facebook_142362.png" alt="facebook"></a>
+        <div class="feedback-item grid">
+          <div class="feedback-img">
+            <img src="./IMAGENES/juegos delhambre.jpg" alt="LOS JUEGOS DEL HAMBRE">
+          </div>
+          <div class="feedback-content">
+            <h3>LOS JUEGOS DEL HAMBRE</h3><br>
+            <h4>Hector Gomez</h4><br>
+            <p>"Una experencia intensa y llena de adrenalina"</p>
+          </div>
+        </div>
 
-      <img class="red" src="IMAGENES/twitterblanco_142363.png" alt="twitter"></a>
-
-
-
-    </footer>
+        <div class="feedback-item grid">
+          <div class="feedback-img">
+            <img src="./IMAGENES/Caratula_de_Avatar.webp" alt="AVATAR">
+          </div>
+          <div class="feedback-content">
+            <h3>Avatar</h3><br>
+            <h4>Sara de Lucas</h4><br>
+            <p>"El Corredor del Laberinto combina una trama intrigante con efectos visuales asombrosos,
+              creando un viaje cinematográfico inolvidable."</p>
+          </div>
+        </div>
+      </div>
+    </aside>
   </main>
 
+  <footer>
+    <p>&copy; 2024 RECOMPE</p>
+    <a href="politica-privacidad.html">Política de Privacidad</a>
+    <p>985432755</p>
+    <p>contacto@recompe.com</p>
+    <div class="media-footer">
+      <img class="red" src="IMAGENES/blancoinstagram_142380.png" alt="instagram"></a>
+      <img class="red" src="IMAGENES/blanco facebook_142362.png" alt="facebook"></a>
+      <img class="red" src="IMAGENES/twitterblanco_142363.png" alt="twitter"></a>
 
-
-
-
-
+    </div>
+  </footer>
 
 </body>
 
